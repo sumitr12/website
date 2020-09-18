@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body
+		{
+		background-color: #e6f2ff
+
+		}
+	</style>
+	<title>Registration Form</title>
+</head>
+<body>
+<div>
+	<h1 style="text-align: center;">REGISTRATION</h1>
+	<fieldset>
+	<legend>BASIC DETAILS</legend>
+	<table>
+	<tr><td>Form Number</td><td><input type ="text"></td>
+	<tr><td>Name</td><td><input type ="text"></td></tr>
+	<tr><td>Roll Number</td><td><input type="Number"></td></tr>
+	<tr><td>Gender</td><td>Male<input type ="radio" value ="Male" name="gender">
+		Female<input type="radio" value="Female" name="gender"></td></tr>
+		<tr><td>DOB</td><td><input type="date"></td></tr>
+		<tr><td>PWD</td><td>YES<input type="radio" value="YES" name="pwd">
+			NO<input type="radio" value ="NO" name="pwd"></td></tr>
+			<tr><td>Category</td><td><select value =" ">
+				<option value ="GEN"> GEN</option>
+				<OPTION value="OBC">OBC</OPTION>
+				<option value ="SC">SC</option>
+				<option value ="ST">ST</option>
+			</select></td></tr>
+			<tr><td>Address</td></tr>
+	</table>
+	<tr><td><textarea rows="5" cols="50" maxlength="10"></textarea></td></tr>
+	<br>
+	PLEASE INPUT THE CORRECT PIN CODE
+	<table>
+		<tr><td>PIN CODE</td><td><input type ="Number"></td></tr>
+		<tr><td>PHONE OF STUDENT</td><td><input type ="Number"></td></tr>
+		<tr><td>PHONE OF GUARDIAN</td><td><input type="text"></td></tr>
+	</table>
+</fieldset>
+<div>
+	<br>
+<fieldset>
+	<legend>ACADEMIC INFORMATION</legend>
+	<table>
+		<tr><td>COURSE</td><td><select value="Select">
+			<option value="B.Tech">B.tech</option>
+			<option value="B.Arch">B.Arch</option>
+			<option value="M.Tech">M.Tech</option>
+			<option value="M.Arch">M.Arch</option>
+			<option value="M.Tech(Dual Degree">M.Tech(Dual Degree)</option>
+			<option value="M.Sc.Int">M.Sc.Int</option>
+			<option value="Ph.D.">Ph.D.</option>
+		</select></td></tr>
+		<tr><td>Branch</td><td><input type="text"></td></tr>
+		<tr><td>Semester</td><td><select value="Select">
+			<option value="1st">1st</option>
+			<option value="3rd">3rd</option>
+			<option value="5th">5th</option>
+			<option value="7th">7th</option>
+		</select>(for which allotment will be done)</td></tr>
+		<tr><td>All India Rank</td><td><input type ="Number">(2018 JEE Main/GATE)</td></tr>
+		<tr><td>Category Rank</td><td><input type ="Number">(2018 JEE Main/GATE)</td></tr>
+		<tr><td>CGPA</td><td><input type="Number"></td></tr>
+		<tr><td>Backlog</td><td>YES<input type="radio" value="YES" name="backlog">
+			NO<input type="radio" value ="NO" name="backlog"></td></tr>
+			<tr><td>Hostel Accommodation</td><td>YES<input type="radio" value="YES" name="hostel">
+			NO<input type="radio" value ="NO" name="hostel">(IF ANY)</td></tr>
+			<tr><td>Name Of Hostel</td><td><input type ="text"></td></tr>
+			<tr><td>Room Number</td><td><input type ="Number"></td></tr>
+	</table>
+</fieldset>
+<br>
+<fieldset>
+	<legend>ACCOUNT DETAILS FOR REFUNDING PROCESS</legend>
+	<table>
+	<tr><td>Account Holder Name  </td><td><input type="text"> As Per Bank Passbook</td></tr>
+	<tr><td>Account Number</td><td><input type="Number"></td></tr>
+	<tr><td>IFSC CODE</td><td><input type="Number"></td></tr>
+    <tr><td>Bank Name</td><td><input type="text"></td></tr>
+    <tr><td>Bank Branch</td><td><input type="text"></td></tr>
+    
+    
+     </table>
+</fieldset>
+	
+</div>
+</body>
+</html>
